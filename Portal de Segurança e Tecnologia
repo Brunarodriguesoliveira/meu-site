@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portal de Segurança e Tecnologia</title>
+  <style>
+    * { box-sizing: border-box; scroll-behavior: smooth; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-image: url('https://tse4.mm.bing.net/th/id/OIP.g-ceyVhW1STxPZOvgSgtqQHaEM?w=833&h=472&rs=1&pid=ImgDetMain&o=7&rm=3');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #fff;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    body::before {
+      content: "";
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: -1;
+    }
+    header {
+      background-color: rgba(186, 201, 218, 0.9);
+      text-align: center;
+      padding: 50px 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    nav {
+      background-color: #fff;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+      padding: 8px 14px;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #007bff;
+      color: white;
+      transform: scale(1.1);
+    }
+    .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+    section {
+      background-color: rgba(255,255,255,0.95);
+      color: #000;
+      margin: 40px 0;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+      opacity: 0;
+      transform: translateY(50px);
+      transition: all 0.8s ease;
+    }
+    section.show { opacity: 1; transform: translateY(0); }
+    h2 {
+      color: #007bff;
+      margin-bottom: 20px;
+      position: relative;
+    }
+    h2::after {
+      content: '';
+      position: absolute;
+      width: 60px;
+      height: 3px;
+      background-color: #007bff;
+      bottom: -5px;
+      left: 0;
+    }
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .images img {
+      max-width: 30%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      margin: 10px;
+      transition: transform 0.3s ease;
+    }
+    .images img:hover { transform: scale(1.05); }
+    button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-top: 15px;
+    }
+    button:hover { background-color: #0056b3; transform: scale(1.1); }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: rgba(0,123,255,0.9);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portal de Segurança e Tecnologia</h1>
+    <p>Conheça as principais áreas que impulsionam a inovação, a segurança e a estratégia tecnológica.</p>
+  </header>
+
+  <nav>
+    <a href="#cybersecurity">Segurança Cibernética</a>
+    <a href="#operations">Operações</a>
+    <a href="#engineering">Engenharia</a>
+    <a href="#pmo">PMO</a>
+    <a href="#financeiro">Financeiro</a>
+    <a href="#comercial">Comercial de TI</a>
+    <a href="#marketing">Marketing</a>
+  </nav>
+
+  <div class="container">
+    <section id="cybersecurity">
+      <h2>🔐 Segurança Cibernética</h2>
+      <p>A <strong>Segurança Cibernética</strong> protege sistemas, redes e dados contra ameaças digitais, garantindo privacidade e integridade das informações.</p>
+      <ul>
+        <li>Monitoramento constante e resposta a incidentes.</li>
+        <li>Prevenção contra ataques e vulnerabilidades.</li>
+        <li>Criptografia e controle de acessos.</li>
+      </ul>
+      <div class="images">
+        <img src="https://revistasegurancaeletronica.com.br/wp-content/uploads/2023/01/seguranca-cibernetica-em-2023-entenda-tendencias-e-veja-como-se-proteger.jpg">
+        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=600&q=80">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.68LeGrkOAOjHAhAVJU07bgHaFF?rs=1&pid=ImgDetMain&o=7&rm=3">
+      </div>
+    </section>
+
+    <section id="operations">
+      <h2>⚙️ Operações</h2>
+      <p>A área de <strong>Operações</strong> assegura o funcionamento contínuo e eficiente de sistemas e redes corporativas.</p>
+      <ul>
+        <li>Monitoramento de servidores e infraestrutura.</li>
+        <li>Atendimento técnico e manutenção 24/7.</li>
+        <li>Gestão de performance e disponibilidade.</li>
+      </ul>
+      <div class="images">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80">
+        <img src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=600&q=80">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80">
+      </div>
+    </section>
+
+    <section id="engineering">
+      <h2>🧠 Engenharia</h2>
+      <p>A <strong>Engenharia de TI</strong> desenvolve soluções tecnológicas, automatiza processos e garante inovação contínua.</p>
+      <ul>
+        <li>Desenvolvimento de sistemas e aplicativos.</li>
+        <li>Automação e integração de plataformas.</li>
+        <li>Pesquisa e inovação tecnológica.</li>
+      </ul>
+      <div class="images">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.o9iP9R2cci5Z8Jbd96ULYgHaI-?w=1057&h=1280&rs=1&pid=ImgDetMain&o=7&rm=3">
+        <img src="https://blog.xpeducacao.com.br/wp-content/uploads/2024/01/AdobeStock_618318516.jpg">
+        <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=600&q=80">
+      </div>
+    </section>
+
+    <section id="pmo">
+      <h2>📊 PMO - Project Management Office</h2>
+      <p>O <strong>PMO</strong> gerencia os projetos estratégicos, garantindo controle de prazos, custos e qualidade na entrega.</p>
+      <ul>
+        <li>Planejamento e acompanhamento de projetos.</li>
+        <li>Definição de padrões e boas práticas.</li>
+        <li>Gestão de riscos e resultados.</li>
+      </ul>
+      <div class="images">
+        <img src="https://images.unsplash.com/photo-1560264280-88b68371db39?auto=format&fit=crop&w=600&q=80">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.r0rQua7d3d4xGQsl7cHfwwHaFj?w=640&h=480&rs=1&pid=ImgDetMain&o=7&rm=3">
+        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=600&q=80">
+      </div>
+    </section>
+
+    <section id="financeiro">
+      <h2>💰 Financeiro</h2>
+      <p>O setor <strong>Financeiro</strong> garante sustentabilidade econômica e controle de investimentos em tecnologia.</p>
+      <ul>
+        <li>Gestão de orçamentos e custos de TI.</li>
+        <li>Análise de rentabilidade e retorno sobre investimento.</li>
+        <li>Planejamento financeiro estratégico.</li>
+      </ul>
+      <div class="images">
+        <img src="https://wallpapercave.com/wp/wp2446261.jpg">
+        <img src="https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?auto=format&fit=crop&w=600&q=80">
+        <img src="https://static9.depositphotos.com/1015337/1130/i/450/depositphotos_11300915-stock-photo-accounting.jpg">
+      </div>
+    </section>
+
+    <section id="comercial">
+      <h2>💼 Comercial de TI</h2>
+      <p>O <strong>Comercial de TI</strong> conecta tecnologia e negócios, identificando soluções que geram valor para clientes e parceiros.</p>
+      <ul>
+        <li>Prospecção e relacionamento com clientes.</li>
+        <li>Apresentação de soluções tecnológicas personalizadas.</li>
+        <li>Gestão de contratos e parcerias estratégicas.</li>
+      </ul>
+      <div class="images">
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=600&q=80">
+        <img src="data:image/webp;base64,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">
+        <img src="https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&w=600&q=80">
+      </div>
+    </section>
+
+    <section id="marketing">
+      <h2>📣 Marketing</h2>
+      <p>O <strong>Marketing</strong> impulsiona a presença digital e fortalece a imagem institucional, utilizando estratégias inovadoras e análise de dados.</p>
+      <ul>
+        <li>Gestão de comunicação e branding.</li>
+        <li>Campanhas digitais e mídias sociais.</li>
+        <li>Análise de mercado e comportamento do público.</li>
+      </ul>
+      <div class="images">
+        <img src="https://th.bing.com/th/id/R.eb061214ec275c403046f5bd60058349?rik=gVKyBzcB5oZnKg&riu=http%3a%2f%2fwww.maisweb.com.br%2fsite1%2fimages%2fTecnologia-Como-Ferramenta-de-Marketing.jpg&ehk=etisMPczpbZVIq1iodRjDas1Em6OeE3zAlf1smI%2fNh8%3d&risl=&pid=ImgRaw&r=0">
+        <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=600&q=80">
+        <img src="https://oppag.com.br/wp-content/uploads/2016/04/Marketing-TI.jpg">
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 - Portal de Segurança e Tecnologia | Desenvolvido para fins educacionais.</p>
+  </footer>
+
+  <script>
+    const sections = document.querySelectorAll('section');
+    window.addEventListener('scroll', () => {
+      sections.forEach(section => {
+        const rect = section.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 100) {
+          section.classList.add('show');
+        }
+      });
+    });
+  </script>
+  <!-- SOBRE -->
+<section id="sobre" class="sobre">
+  <h2>Sobre</h2>
+  <p>
+    Este portal foi desenvolvido para apresentar a estrutura de uma empresa moderna de segurança e tecnologia.  
+    Cada área desempenha um papel essencial na entrega de soluções seguras, inteligentes e integradas.  
+    A combinação de inovação, estratégia e execução é o que impulsiona o sucesso e a confiança dos clientes.
+  </p>
+</section>
+</body>
+</html>
+
+
+
